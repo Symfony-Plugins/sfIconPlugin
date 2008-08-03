@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.11" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfIconPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>symfony sfIcon plugin</summary>
+ <description>sfIcon is a Symfony plugin. sfIcon gives a set of icons and a set of helper..</description>
+ <lead>
+  <name>Alessio Piccioli</name>
+  <user>piccioli</user>
+  <email>piccioli@netseven.it</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-08-02</date>
+ <time>16:00:00</time>
+ <version>
+  <release>0.1.1</release>
+  <api>0.1.1</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL license</license>
+ <notes>-</notes>
+
+<contents>
+<dir name="/">
+ <file role="data" name="LICENSE" />
+ <file role="data" name="README" />
+
+ <dir name="lib">
+
+  <dir name="helper">
+   <file role="data" name="sfIconHelper.php" />
+  </dir>
+ </dir>
+
+ <dir name="web">
+
+  <dir name="images">
+
+   <dir name="icons">
+    <file role="data" name="readme.txt" />
+
+    <dir name="16x16">
+     <file role="data" name="accept.png" />
+     <file role="data" name="add.png" />
+     <file role="data" name="application_add.png" />
+     <file role="data" name="application_edit.png" />
+     <file role="data" name="application_lock.png" />
+     <file role="data" name="application_next.png" />
+     <file role="data" name="application.png" />
+     <file role="data" name="application_remove.png" />
+     <file role="data" name="applications.png" />
+     <file role="data" name="application_up.png" />
+     <file role="data" name="archive.png" />
+     <file role="data" name="attachment.png" />
+     <file role="data" name="back.png" />
+     <file role="data" name="calculator_accept.png" />
+     <file role="data" name="calculator_add.png" />
+     <file role="data" name="calculator.png" />
+     <file role="data" name="calculator_remove.png" />
+     <file role="data" name="cd_accept.png" />
+     <file role="data" name="cd_add.png" />
+     <file role="data" name="cd_down.png" />
+     <file role="data" name="cd.png" />
+     <file role="data" name="cd_remove.png" />
+     <file role="data" name="chart_accept.png" />
+     <file role="data" name="chart_add.png" />
+     <file role="data" name="chart.png" />
+     <file role="data" name="chart_remove.png" />
+     <file role="data" name="clock.png" />
+     <file role="data" name="comment_add.png" />
+     <file role="data" name="comment_edit.png" />
+     <file role="data" name="comment.png" />
+     <file role="data" name="comment_remove.png" />
+     <file role="data" name="comments_add.png" />
+     <file role="data" name="comments.png" />
+     <file role="data" name="comments_remove.png" />
+     <file role="data" name="computer_accept.png" />
+     <file role="data" name="computer.png" />
+     <file role="data" name="computer_remove.png" />
+     <file role="data" name="computers.png" />
+     <file role="data" name="database_accept.png" />
+     <file role="data" name="database_add.png" />
+     <file role="data" name="database_down.png" />
+     <file role="data" name="database_lock.png" />
+     <file role="data" name="database_next.png" />
+     <file role="data" name="database.png" />
+     <file role="data" name="database_previous.png" />
+     <file role="data" name="database_process.png" />
+     <file role="data" name="database_remove.png" />
+     <file role="data" name="database_search.png" />
+     <file role="data" name="database_up.png" />
+     <file role="data" name="down.png" />
+     <file role="data" name="eject.png" />
+     <file role="data" name="fast_forward.png" />
+     <file role="data" name="favorite_add.png" />
+     <file role="data" name="favorite.png" />
+     <file role="data" name="favorite_remove.png" />
+     <file role="data" name="folder_accept.png" />
+     <file role="data" name="folder_add.png" />
+     <file role="data" name="folder_down.png" />
+     <file role="data" name="folder_edit.png" />
+     <file role="data" name="folder_next.png" />
+     <file role="data" name="folder.png" />
+     <file role="data" name="folder_previous.png" />
+     <file role="data" name="folder_process.png" />
+     <file role="data" name="folder_remove.png" />
+     <file role="data" name="folder_up.png" />
+     <file role="data" name="help.png" />
+     <file role="data" name="home_next.png" />
+     <file role="data" name="home.png" />
+     <file role="data" name="image_add.png" />
+     <file role="data" name="image_edit.png" />
+     <file role="data" name="image_lock.png" />
+     <file role="data" name="image_multi.png" />
+     <file role="data" name="image_next.png" />
+     <file role="data" name="image.png" />
+     <file role="data" name="image_remove.png" />
+     <file role="data" name="image_up.png" />
+     <file role="data" name="info.png" />
+     <file role="data" name="lock_disabled.png" />
+     <file role="data" name="lock_off_disabled.png" />
+     <file role="data" name="lock_off.png" />
+     <file role="data" name="lock.png" />
+     <file role="data" name="mail_accept.png" />
+     <file role="data" name="mail_add.png" />
+     <file role="data" name="mail_edit.png" />
+     <file role="data" name="mail_next.png" />
+     <file role="data" name="mail.png" />
+     <file role="data" name="mail_remove.png" />
+     <file role="data" name="movie_track_add.png" />
+     <file role="data" name="movie_track_next.png" />
+     <file role="data" name="movie_track.png" />
+     <file role="data" name="movie_track_remove.png" />
+     <file role="data" name="next.png" />
+     <file role="data" name="note_accept.png" />
+     <file role="data" name="note_add.png" />
+     <file role="data" name="note_edit.png" />
+     <file role="data" name="note_remove.png" />
+     <file role="data" name="notes_edit.png" />
+     <file role="data" name="page_accept.png" />
+     <file role="data" name="page_add.png" />
+     <file role="data" name="page_down.png" />
+     <file role="data" name="page_edit.png" />
+     <file role="data" name="page_next.png" />
+     <file role="data" name="page.png" />
+     <file role="data" name="page_previous.png" />
+     <file role="data" name="page_process.png" />
+     <file role="data" name="page_remove.png" />
+     <file role="data" name="page_search.png" />
+     <file role="data" name="page_up.png" />
+     <file role="data" name="pause.png" />
+     <file role="data" name="pdf.png" />
+     <file role="data" name="play.png" />
+     <file role="data" name="printer.png" />
+     <file role="data" name="printer_search.png" />
+     <file role="data" name="process_accept.png" />
+     <file role="data" name="process_add.png" />
+     <file role="data" name="process.png" />
+     <file role="data" name="process_remove.png" />
+     <file role="data" name="record.png" />
+     <file role="data" name="remove.png" />
+     <file role="data" name="repeat.png" />
+     <file role="data" name="rewind.png" />
+     <file role="data" name="rss_add.png" />
+     <file role="data" name="rss_edit.png" />
+     <file role="data" name="rss_next.png" />
+     <file role="data" name="rss.png" />
+     <file role="data" name="rss_remove.png" />
+     <file role="data" name="search_add.png" />
+     <file role="data" name="search.png" />
+     <file role="data" name="search_remove.png" />
+     <file role="data" name="she_user_accept.png" />
+     <file role="data" name="she_user_add.png" />
+     <file role="data" name="she_user.png" />
+     <file role="data" name="she_user_remove.png" />
+     <file role="data" name="she_users.png" />
+     <file role="data" name="shopping_cart_accept.png" />
+     <file role="data" name="shopping_cart_down.png" />
+     <file role="data" name="shopping_cart.png" />
+     <file role="data" name="shopping_cart_remove.png" />
+     <file role="data" name="shopping_cart_up.png" />
+     <file role="data" name="skip_backward.png" />
+     <file role="data" name="skip_forward.png" />
+     <file role="data" name="sound_off.png" />
+     <file role="data" name="sound_on.png" />
+     <file role="data" name="sound.png" />
+     <file role="data" name="stop.png" />
+     <file role="data" name="up.png" />
+     <file role="data" name="user_accept.png" />
+     <file role="data" name="user_add.png" />
+     <file role="data" name="user.png" />
+     <file role="data" name="user_remove.png" />
+     <file role="data" name="users.png" />
+     <file role="data" name="window_add.png" />
+     <file role="data" name="window_edit.png" />
+     <file role="data" name="window_lock.png" />
+     <file role="data" name="window_next.png" />
+     <file role="data" name="window.png" />
+     <file role="data" name="window_remove.png" />
+     <file role="data" name="windows.png" />
+     <file role="data" name="window_up.png" />
+     <file role="data" name="word.png" />
+    </dir>
+
+    <dir name="24x24">
+     <file role="data" name="accept.png" />
+     <file role="data" name="add.png" />
+     <file role="data" name="application_add.png" />
+     <file role="data" name="application_edit.png" />
+     <file role="data" name="application_lock.png" />
+     <file role="data" name="application_next.png" />
+     <file role="data" name="application.png" />
+     <file role="data" name="application_remove.png" />
+     <file role="data" name="applications.png" />
+     <file role="data" name="application_up.png" />
+     <file role="data" name="archive.png" />
+     <file role="data" name="attachment.png" />
+     <file role="data" name="back.png" />
+     <file role="data" name="calculator_accept.png" />
+     <file role="data" name="calculator_add.png" />
+     <file role="data" name="calculator.png" />
+     <file role="data" name="calculator_remove.png" />
+     <file role="data" name="cd_accept.png" />
+     <file role="data" name="cd_add.png" />
+     <file role="data" name="cd_down.png" />
+     <file role="data" name="cd.png" />
+     <file role="data" name="cd_remove.png" />
+     <file role="data" name="chart_accept.png" />
+     <file role="data" name="chart_add.png" />
+     <file role="data" name="chart.png" />
+     <file role="data" name="chart_remove.png" />
+     <file role="data" name="clock.png" />
+     <file role="data" name="comment_add.png" />
+     <file role="data" name="comment_edit.png" />
+     <file role="data" name="comment.png" />
+     <file role="data" name="comment_remove.png" />
+     <file role="data" name="comments_add.png" />
+     <file role="data" name="comments.png" />
+     <file role="data" name="comments_remove.png" />
+     <file role="data" name="computer_accept.png" />
+     <file role="data" name="computer.png" />
+     <file role="data" name="computer_remove.png" />
+     <file role="data" name="computers.png" />
+     <file role="data" name="database_accept.png" />
+     <file role="data" name="database_add.png" />
+     <file role="data" name="database_down.png" />
+     <file role="data" name="database_lock.png" />
+     <file role="data" name="database_next.png" />
+     <file role="data" name="database.png" />
+     <file role="data" name="database_previous.png" />
+     <file role="data" name="database_process.png" />
+     <file role="data" name="database_remove.png" />
+     <file role="data" name="database_search.png" />
+     <file role="data" name="database_up.png" />
+     <file role="data" name="down.png" />
+     <file role="data" name="eject.png" />
+     <file role="data" name="fast_forward.png" />
+     <file role="data" name="favorite_add.png" />
+     <file role="data" name="favorite.png" />
+     <file role="data" name="favorite_remove.png" />
+     <file role="data" name="folder_accept.png" />
+     <file role="data" name="folder_add.png" />
+     <file role="data" name="folder_down.png" />
+     <file role="data" name="folder_edit.png" />
+     <file role="data" name="folder_next.png" />
+     <file role="data" name="folder.png" />
+     <file role="data" name="folder_previous.png" />
+     <file role="data" name="folder_process.png" />
+     <file role="data" name="folder_remove.png" />
+     <file role="data" name="folder_up.png" />
+     <file role="data" name="help.png" />
+     <file role="data" name="home_next.png" />
+     <file role="data" name="home.png" />
+     <file role="data" name="image_add.png" />
+     <file role="data" name="image_edit.png" />
+     <file role="data" name="image_lock.png" />
+     <file role="data" name="image_multi.png" />
+     <file role="data" name="image_next.png" />
+     <file role="data" name="image.png" />
+     <file role="data" name="image_remove.png" />
+     <file role="data" name="image_up.png" />
+     <file role="data" name="info.png" />
+     <file role="data" name="lock_disabled.png" />
+     <file role="data" name="lock_off_disabled.png" />
+     <file role="data" name="lock_off.png" />
+     <file role="data" name="lock.png" />
+     <file role="data" name="mail_accept.png" />
+     <file role="data" name="mail_add.png" />
+     <file role="data" name="mail_edit.png" />
+     <file role="data" name="mail_next.png" />
+     <file role="data" name="mail.png" />
+     <file role="data" name="mail_remove.png" />
+     <file role="data" name="movie_track_add.png" />
+     <file role="data" name="movie_track_next.png" />
+     <file role="data" name="movie_track.png" />
+     <file role="data" name="movie_track_remove.png" />
+     <file role="data" name="next.png" />
+     <file role="data" name="note_accept.png" />
+     <file role="data" name="note_add.png" />
+     <file role="data" name="note_edit.png" />
+     <file role="data" name="note_remove.png" />
+     <file role="data" name="notes_edit.png" />
+     <file role="data" name="page_accept.png" />
+     <file role="data" name="page_add.png" />
+     <file role="data" name="page_down.png" />
+     <file role="data" name="page_edit.png" />
+     <file role="data" name="page_next.png" />
+     <file role="data" name="page.png" />
+     <file role="data" name="page_previous.png" />
+     <file role="data" name="page_process.png" />
+     <file role="data" name="page_remove.png" />
+     <file role="data" name="page_search.png" />
+     <file role="data" name="page_up.png" />
+     <file role="data" name="pause.png" />
+     <file role="data" name="pdf.png" />
+     <file role="data" name="play.png" />
+     <file role="data" name="printer.png" />
+     <file role="data" name="printer_search.png" />
+     <file role="data" name="process_accept.png" />
+     <file role="data" name="process_add.png" />
+     <file role="data" name="process.png" />
+     <file role="data" name="process_remove.png" />
+     <file role="data" name="record.png" />
+     <file role="data" name="remove.png" />
+     <file role="data" name="repeat.png" />
+     <file role="data" name="rewind.png" />
+     <file role="data" name="rss_add.png" />
+     <file role="data" name="rss_edit.png" />
+     <file role="data" name="rss_next.png" />
+     <file role="data" name="rss.png" />
+     <file role="data" name="rss_remove.png" />
+     <file role="data" name="search_add.png" />
+     <file role="data" name="search.png" />
+     <file role="data" name="search_remove.png" />
+     <file role="data" name="she_user_accept.png" />
+     <file role="data" name="she_user_add.png" />
+     <file role="data" name="she_user.png" />
+     <file role="data" name="she_user_remove.png" />
+     <file role="data" name="she_users.png" />
+     <file role="data" name="shopping_cart_accept.png" />
+     <file role="data" name="shopping_cart_down.png" />
+     <file role="data" name="shopping_cart.png" />
+     <file role="data" name="shopping_cart_remove.png" />
+     <file role="data" name="shopping_cart_up.png" />
+     <file role="data" name="skip_backward.png" />
+     <file role="data" name="skip_forward.png" />
+     <file role="data" name="sound_off.png" />
+     <file role="data" name="sound_on.png" />
+     <file role="data" name="sound.png" />
+     <file role="data" name="stop.png" />
+     <file role="data" name="up.png" />
+     <file role="data" name="user_accept.png" />
+     <file role="data" name="user_add.png" />
+     <file role="data" name="user.png" />
+     <file role="data" name="user_remove.png" />
+     <file role="data" name="users.png" />
+     <file role="data" name="window_add.png" />
+     <file role="data" name="window_edit.png" />
+     <file role="data" name="window_lock.png" />
+     <file role="data" name="window_next.png" />
+     <file role="data" name="window.png" />
+     <file role="data" name="window_remove.png" />
+     <file role="data" name="windows.png" />
+     <file role="data" name="window_up.png" />
+     <file role="data" name="word.png" />
+    </dir>
+
+    <dir name="32x32">
+     <file role="data" name="accept.png" />
+     <file role="data" name="add.png" />
+     <file role="data" name="application_add.png" />
+     <file role="data" name="application_edit.png" />
+     <file role="data" name="application_lock.png" />
+     <file role="data" name="application_next.png" />
+     <file role="data" name="application.png" />
+     <file role="data" name="application_remove.png" />
+     <file role="data" name="applications.png" />
+     <file role="data" name="application_up.png" />
+     <file role="data" name="archive.png" />
+     <file role="data" name="attachment.png" />
+     <file role="data" name="back.png" />
+     <file role="data" name="calculator_accept.png" />
+     <file role="data" name="calculator_add.png" />
+     <file role="data" name="calculator.png" />
+     <file role="data" name="calculator_remove.png" />
+     <file role="data" name="cd_accept.png" />
+     <file role="data" name="cd_add.png" />
+     <file role="data" name="cd_down.png" />
+     <file role="data" name="cd.png" />
+     <file role="data" name="cd_remove.png" />
+     <file role="data" name="chart_accept.png" />
+     <file role="data" name="chart_add.png" />
+     <file role="data" name="chart.png" />
+     <file role="data" name="chart_remove.png" />
+     <file role="data" name="clock.png" />
+     <file role="data" name="comment_add.png" />
+     <file role="data" name="comment_edit.png" />
+     <file role="data" name="comment.png" />
+     <file role="data" name="comment_remove.png" />
+     <file role="data" name="comments_add.png" />
+     <file role="data" name="comments.png" />
+     <file role="data" name="comments_remove.png" />
+     <file role="data" name="computer_accept.png" />
+     <file role="data" name="computer.png" />
+     <file role="data" name="computer_remove.png" />
+     <file role="data" name="computers.png" />
+     <file role="data" name="database_accept.png" />
+     <file role="data" name="database_add.png" />
+     <file role="data" name="database_down.png" />
+     <file role="data" name="database_lock.png" />
+     <file role="data" name="database_next.png" />
+     <file role="data" name="database.png" />
+     <file role="data" name="database_previous.png" />
+     <file role="data" name="database_process.png" />
+     <file role="data" name="database_remove.png" />
+     <file role="data" name="database_search.png" />
+     <file role="data" name="database_up.png" />
+     <file role="data" name="down.png" />
+     <file role="data" name="eject.png" />
+     <file role="data" name="fast_forward.png" />
+     <file role="data" name="favorite_add.png" />
+     <file role="data" name="favorite.png" />
+     <file role="data" name="favorite_remove.png" />
+     <file role="data" name="folder_accept.png" />
+     <file role="data" name="folder_add.png" />
+     <file role="data" name="folder_down.png" />
+     <file role="data" name="folder_edit.png" />
+     <file role="data" name="folder_next.png" />
+     <file role="data" name="folder.png" />
+     <file role="data" name="folder_previous.png" />
+     <file role="data" name="folder_process.png" />
+     <file role="data" name="folder_remove.png" />
+     <file role="data" name="folder_up.png" />
+     <file role="data" name="help.png" />
+     <file role="data" name="home_next.png" />
+     <file role="data" name="home.png" />
+     <file role="data" name="image_add.png" />
+     <file role="data" name="image_edit.png" />
+     <file role="data" name="image_lock.png" />
+     <file role="data" name="image_multi.png" />
+     <file role="data" name="image_next.png" />
+     <file role="data" name="image.png" />
+     <file role="data" name="image_remove.png" />
+     <file role="data" name="image_up.png" />
+     <file role="data" name="info.png" />
+     <file role="data" name="lock_disabled.png" />
+     <file role="data" name="lock_off_disabled.png" />
+     <file role="data" name="lock_off.png" />
+     <file role="data" name="lock.png" />
+     <file role="data" name="mail_accept.png" />
+     <file role="data" name="mail_add.png" />
+     <file role="data" name="mail_edit.png" />
+     <file role="data" name="mail_next.png" />
+     <file role="data" name="mail.png" />
+     <file role="data" name="mail_remove.png" />
+     <file role="data" name="movie_track_add.png" />
+     <file role="data" name="movie_track_next.png" />
+     <file role="data" name="movie_track.png" />
+     <file role="data" name="movie_track_remove.png" />
+     <file role="data" name="next.png" />
+     <file role="data" name="note_accept.png" />
+     <file role="data" name="note_add.png" />
+     <file role="data" name="note_edit.png" />
+     <file role="data" name="note_remove.png" />
+     <file role="data" name="notes_edit.png" />
+     <file role="data" name="page_accept.png" />
+     <file role="data" name="page_add.png" />
+     <file role="data" name="page_down.png" />
+     <file role="data" name="page_edit.png" />
+     <file role="data" name="page_next.png" />
+     <file role="data" name="page.png" />
+     <file role="data" name="page_previous.png" />
+     <file role="data" name="page_process.png" />
+     <file role="data" name="page_remove.png" />
+     <file role="data" name="page_search.png" />
+     <file role="data" name="page_up.png" />
+     <file role="data" name="pause.png" />
+     <file role="data" name="pdf.png" />
+     <file role="data" name="play.png" />
+     <file role="data" name="printer.png" />
+     <file role="data" name="printer_search.png" />
+     <file role="data" name="process_accept.png" />
+     <file role="data" name="process_add.png" />
+     <file role="data" name="process.png" />
+     <file role="data" name="process_remove.png" />
+     <file role="data" name="record.png" />
+     <file role="data" name="remove.png" />
+     <file role="data" name="repeat.png" />
+     <file role="data" name="rewind.png" />
+     <file role="data" name="rss_add.png" />
+     <file role="data" name="rss_edit.png" />
+     <file role="data" name="rss_next.png" />
+     <file role="data" name="rss.png" />
+     <file role="data" name="rss_remove.png" />
+     <file role="data" name="search_add.png" />
+     <file role="data" name="search.png" />
+     <file role="data" name="search_remove.png" />
+     <file role="data" name="she_user_accept.png" />
+     <file role="data" name="she_user_add.png" />
+     <file role="data" name="she_user.png" />
+     <file role="data" name="she_user_remove.png" />
+     <file role="data" name="she_users.png" />
+     <file role="data" name="shopping_cart_accept.png" />
+     <file role="data" name="shopping_cart_down.png" />
+     <file role="data" name="shopping_cart.png" />
+     <file role="data" name="shopping_cart_remove.png" />
+     <file role="data" name="shopping_cart_up.png" />
+     <file role="data" name="skip_backward.png" />
+     <file role="data" name="skip_forward.png" />
+     <file role="data" name="sound_off.png" />
+     <file role="data" name="sound_on.png" />
+     <file role="data" name="sound.png" />
+     <file role="data" name="stop.png" />
+     <file role="data" name="up.png" />
+     <file role="data" name="user_accept.png" />
+     <file role="data" name="user_add.png" />
+     <file role="data" name="user.png" />
+     <file role="data" name="user_remove.png" />
+     <file role="data" name="users.png" />
+     <file role="data" name="window_add.png" />
+     <file role="data" name="window_edit.png" />
+     <file role="data" name="window_lock.png" />
+     <file role="data" name="window_next.png" />
+     <file role="data" name="window.png" />
+     <file role="data" name="window_remove.png" />
+     <file role="data" name="windows.png" />
+     <file role="data" name="window_up.png" />
+     <file role="data" name="word.png" />
+    </dir>
+
+    <dir name="48x48">
+     <file role="data" name="accept.png" />
+     <file role="data" name="add.png" />
+     <file role="data" name="application_add.png" />
+     <file role="data" name="application_edit.png" />
+     <file role="data" name="application_lock.png" />
+     <file role="data" name="application_next.png" />
+     <file role="data" name="application.png" />
+     <file role="data" name="application_remove.png" />
+     <file role="data" name="applications.png" />
+     <file role="data" name="application_up.png" />
+     <file role="data" name="archive.png" />
+     <file role="data" name="attachment.png" />
+     <file role="data" name="back.png" />
+     <file role="data" name="calculator_accept.png" />
+     <file role="data" name="calculator_add.png" />
+     <file role="data" name="calculator.png" />
+     <file role="data" name="calculator_remove.png" />
+     <file role="data" name="cd_accept.png" />
+     <file role="data" name="cd_add.png" />
+     <file role="data" name="cd_down.png" />
+     <file role="data" name="cd.png" />
+     <file role="data" name="cd_remove.png" />
+     <file role="data" name="chart_accept.png" />
+     <file role="data" name="chart_add.png" />
+     <file role="data" name="chart.png" />
+     <file role="data" name="chart_remove.png" />
+     <file role="data" name="clock.png" />
+     <file role="data" name="comment_add.png" />
+     <file role="data" name="comment_edit.png" />
+     <file role="data" name="comment.png" />
+     <file role="data" name="comment_remove.png" />
+     <file role="data" name="comments_add.png" />
+     <file role="data" name="comments.png" />
+     <file role="data" name="comments_remove.png" />
+     <file role="data" name="computer_accept.png" />
+     <file role="data" name="computer.png" />
+     <file role="data" name="computer_remove.png" />
+     <file role="data" name="computers.png" />
+     <file role="data" name="database_accept.png" />
+     <file role="data" name="database_add.png" />
+     <file role="data" name="database_down.png" />
+     <file role="data" name="database_lock.png" />
+     <file role="data" name="database_next.png" />
+     <file role="data" name="database.png" />
+     <file role="data" name="database_previous.png" />
+     <file role="data" name="database_process.png" />
+     <file role="data" name="database_remove.png" />
+     <file role="data" name="database_search.png" />
+     <file role="data" name="database_up.png" />
+     <file role="data" name="down.png" />
+     <file role="data" name="eject.png" />
+     <file role="data" name="fast_forward.png" />
+     <file role="data" name="favorite_add.png" />
+     <file role="data" name="favorite.png" />
+     <file role="data" name="favorite_remove.png" />
+     <file role="data" name="folder_accept.png" />
+     <file role="data" name="folder_add.png" />
+     <file role="data" name="folder_down.png" />
+     <file role="data" name="folder_edit.png" />
+     <file role="data" name="folder_next.png" />
+     <file role="data" name="folder.png" />
+     <file role="data" name="folder_previous.png" />
+     <file role="data" name="folder_process.png" />
+     <file role="data" name="folder_remove.png" />
+     <file role="data" name="folder_up.png" />
+     <file role="data" name="help.png" />
+     <file role="data" name="home_next.png" />
+     <file role="data" name="home.png" />
+     <file role="data" name="image_add.png" />
+     <file role="data" name="image_edit.png" />
+     <file role="data" name="image_lock.png" />
+     <file role="data" name="image_multi.png" />
+     <file role="data" name="image_next.png" />
+     <file role="data" name="image.png" />
+     <file role="data" name="image_remove.png" />
+     <file role="data" name="image_up.png" />
+     <file role="data" name="info.png" />
+     <file role="data" name="lock_disabled.png" />
+     <file role="data" name="lock_off_disabled.png" />
+     <file role="data" name="lock_off.png" />
+     <file role="data" name="lock.png" />
+     <file role="data" name="mail_accept.png" />
+     <file role="data" name="mail_add.png" />
+     <file role="data" name="mail_edit.png" />
+     <file role="data" name="mail_next.png" />
+     <file role="data" name="mail.png" />
+     <file role="data" name="mail_remove.png" />
+     <file role="data" name="movie_track_add.png" />
+     <file role="data" name="movie_track_next.png" />
+     <file role="data" name="movie_track.png" />
+     <file role="data" name="movie_track_remove.png" />
+     <file role="data" name="next.png" />
+     <file role="data" name="note_accept.png" />
+     <file role="data" name="note_add.png" />
+     <file role="data" name="note_edit.png" />
+     <file role="data" name="note_remove.png" />
+     <file role="data" name="notes_edit.png" />
+     <file role="data" name="page_accept.png" />
+     <file role="data" name="page_add.png" />
+     <file role="data" name="page_down.png" />
+     <file role="data" name="page_edit.png" />
+     <file role="data" name="page_next.png" />
+     <file role="data" name="page.png" />
+     <file role="data" name="page_previous.png" />
+     <file role="data" name="page_process.png" />
+     <file role="data" name="page_remove.png" />
+     <file role="data" name="page_search.png" />
+     <file role="data" name="page_up.png" />
+     <file role="data" name="pause.png" />
+     <file role="data" name="pdf.png" />
+     <file role="data" name="play.png" />
+     <file role="data" name="printer.png" />
+     <file role="data" name="printer_search.png" />
+     <file role="data" name="process_accept.png" />
+     <file role="data" name="process_add.png" />
+     <file role="data" name="process.png" />
+     <file role="data" name="process_remove.png" />
+     <file role="data" name="record.png" />
+     <file role="data" name="remove.png" />
+     <file role="data" name="repeat.png" />
+     <file role="data" name="rewind.png" />
+     <file role="data" name="rss_add.png" />
+     <file role="data" name="rss_edit.png" />
+     <file role="data" name="rss_next.png" />
+     <file role="data" name="rss.png" />
+     <file role="data" name="rss_remove.png" />
+     <file role="data" name="search_add.png" />
+     <file role="data" name="search.png" />
+     <file role="data" name="search_remove.png" />
+     <file role="data" name="she_user_accept.png" />
+     <file role="data" name="she_user_add.png" />
+     <file role="data" name="she_user.png" />
+     <file role="data" name="she_user_remove.png" />
+     <file role="data" name="she_users.png" />
+     <file role="data" name="shopping_cart_accept.png" />
+     <file role="data" name="shopping_cart_down.png" />
+     <file role="data" name="shopping_cart.png" />
+     <file role="data" name="shopping_cart_remove.png" />
+     <file role="data" name="shopping_cart_up.png" />
+     <file role="data" name="skip_backward.png" />
+     <file role="data" name="skip_forward.png" />
+     <file role="data" name="sound_off.png" />
+     <file role="data" name="sound_on.png" />
+     <file role="data" name="sound.png" />
+     <file role="data" name="stop.png" />
+     <file role="data" name="Thumbs.db" />
+     <file role="data" name="up.png" />
+     <file role="data" name="user_accept.png" />
+     <file role="data" name="user_add.png" />
+     <file role="data" name="user.png" />
+     <file role="data" name="user_remove.png" />
+     <file role="data" name="users.png" />
+     <file role="data" name="window_add.png" />
+     <file role="data" name="window_edit.png" />
+     <file role="data" name="window_lock.png" />
+     <file role="data" name="window_next.png" />
+     <file role="data" name="window.png" />
+     <file role="data" name="window_remove.png" />
+     <file role="data" name="windows.png" />
+     <file role="data" name="window_up.png" />
+     <file role="data" name="word.png" />
+    </dir>
+   </dir>
+  </dir>
+ </dir>
+</dir>
+</contents>
+
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.0.0</min>
+    <max>1.1.0</max>
+    <exclude>1.1.0</exclude>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog />
+</package>
+
